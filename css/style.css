@@ -1,14 +1,73 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-    }
-
 body{
-    background-color: rgb(13, 26, 45);
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card{
+    margin-top: 10vh;
+
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    text-align: center;
+    border-radius: 10px;
+
 }
 
 .block-img{
-    width: 300px;   
+    width: 260px;   
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.25rem;
+    text-align: left;
+    padding-left: 20px;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    padding-left: 20px;
+    font-size:  1rem;
+    
+}
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+}
+
+.div-container-img{
+    display: flex;
+}
+
+.div-container-img img{
+    width: 10px;
+    height: 12px;
+    
+}
+
+.div-container-img p{
+    margin: 0;
+    padding-left: 5px;
+    font-size: 0.9rem;
+    
+}
+
+.div-hr{
+    margin-left: 20px;
+    width: 260px;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+
+    
 }
